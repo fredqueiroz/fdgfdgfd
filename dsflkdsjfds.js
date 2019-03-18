@@ -1,4 +1,4 @@
-
+$(document).ready(function() {
 var i = 1;
 var j = 0;
 var text = document.querySelector('#buttons').innerHTML;
@@ -164,3 +164,4 @@ $(".ui-accordion .ui-accordion-header").css({
 
 
 
+});
