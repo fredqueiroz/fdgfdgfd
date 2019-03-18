@@ -1,4 +1,4 @@
-<script>
+
 var i = 1;
 var j = 0;
 var text = document.querySelector('#buttons').innerHTML;
@@ -14,4 +14,3 @@ value2 = value2.replace('<li>', '<li class=\"spotli\"><a class=\"spota\" data-id
  $('#buttons').html(value);
  value2 = value2.replace(/<\/li>/g, '</span></a></li>');
  $('#myaccordion').html(value2);
- </script>
