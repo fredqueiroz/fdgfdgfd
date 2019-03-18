@@ -1,4 +1,4 @@
-
+alert('4');
 var i = 1;
 var j = 0;
 var text = document.querySelector('#buttons').innerHTML;
