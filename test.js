@@ -14,3 +14,16 @@ value2 = value2.replace('<li>', '<li class=\"spotli\"><a class=\"spota\" data-id
  $('#buttons').html(value);
  value2 = value2.replace(/<\/li>/g, '</span></a></li>');
  $('#myaccordion').html(value2);
+
+function triggerClick(id) {
+	var children = $("#" + id).children();
+	children.click();
+}
+$(".spota").click(function() {
+             var navMenu = $(this).attr('data-id');
+                triggerClick(navMenu);   
+});
+$(".icons").click(function() {
+                var navMenu = $(this).attr('data-id');
+                triggerClick(navMenu);
+});
